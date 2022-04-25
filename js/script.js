@@ -85,7 +85,7 @@ function sortearCarta(){
     document.getElementById("btnSortear").disabled = true;
     document.getElementById("btnJogar").disabled = false;
    
-    exibirCartaJogador();
+  exibirCartaJogador();
 }
 
 function exibirCartaJogador(){
