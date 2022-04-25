@@ -35,12 +35,12 @@ var carta4 = {
     }
 };
 var carta5 = {
-    nome: "Careca do Breizes",
-    imagem:"https://pbs.twimg.com/profile_images/1494151822709334018/b2sQ6FIt_400x400.jpg",
+    nome: "Capitão price",
+    imagem:"http://static.marriedgames.com.br/925259f5-modern-warfare-price-770x433-1.jpg",
     atributo:{
     ataque: 7,
-    defesa: 9,
-    magia: 3
+    defesa: 10,
+    magia: 2
     }
 };
 
@@ -85,22 +85,8 @@ function sortearCarta(){
     document.getElementById("btnSortear").disabled = true;
     document.getElementById("btnJogar").disabled = false;
    
-    //exibirOpcoes();
     exibirCartaJogador();
 }
-
-
-//function exibirOpcoes(){
-   // var opcoes = document.getElementById("opcoes");
-   // var opcoesTexto = "";
-
-   // for (var atributo in cartaJogador.atributo){
-        //opcoesTexto += "<input type='radio' name='atributo' value='" + atributo +"'>" + atributo;
-    //}
-   // opcoes.innerHTML = opcoesTexto;
-//}
-
-
 
 function exibirCartaJogador(){
   var divCartaJogador = document.getElementById("carta-jogador");
